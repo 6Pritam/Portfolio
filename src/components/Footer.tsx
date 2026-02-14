@@ -136,7 +136,7 @@ const Footer = () => {
           </div>
           
           <div className="flex items-center gap-6 text-sm text-muted-foreground">
-            <span>Last updated: September 2025</span>
+            <span>Last updated: February 2026</span>
             <button
               onClick={scrollToTop}
               className="hover:text-primary transition-colors"

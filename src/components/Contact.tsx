@@ -62,7 +62,7 @@ export function ContactSection() {
     {
       icon: MapPin,
       label: "Location",
-      value: "Balasore, India — 756036",
+      value: "Bangalore, India — 560034",
       action: null,
     },
   ];

@@ -75,7 +75,7 @@ const Navigation = () => {
           <Button 
             variant="default" 
             className="hidden md:flex items-center space-x-2 btn-pill"
-            onClick={() => window.open("https://drive.google.com/file/d/18pnK_Lh1Z3zBb-56eFyh9hbXlHcvPO_5/view?usp=sharing", "_blank")}
+            onClick={() => window.open("https://drive.google.com/file/d/1D_eLJDxsGSp0OB8J6J1naEFFrpqbAsc0/view?usp=drivesdk", "_blank")}
           >
             <Download className="h-4 w-4" />
             <span>Resume</span>

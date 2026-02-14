@@ -179,7 +179,7 @@ const Hero = () => {
             <div className="grid grid-cols-1 md:grid-cols-[1fr_2fr_1fr] gap-6 text-sm">
               <div className="flex items-center justify-center space-x-2 text-muted-foreground">
                 <MapPin className="h-4 w-4 text-primary" />
-                <span>Balasore, India</span>
+                <span>Bangalore, India</span>
               </div>
               
               <div className="flex items-center justify-center space-x-2 text-muted-foreground whitespace-nowrap">

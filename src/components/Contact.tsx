@@ -224,7 +224,7 @@ export function ContactSection() {
                     className="w-full btn-pill justify-start"
                     onClick={() =>
                       window.open(
-                        "https://drive.google.com/file/d/18pnK_Lh1Z3zBb-56eFyh9hbXlHcvPO_5/view?usp=sharing",
+                        "https://drive.google.com/file/d/1D_eLJDxsGSp0OB8J6J1naEFFrpqbAsc0/view?usp=drivesdk",
                         "_blank"
                       )
                     }

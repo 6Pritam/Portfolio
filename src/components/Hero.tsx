@@ -11,7 +11,7 @@ const Hero = () => {
   const [charIndex, setCharIndex] = useState(0);
   const [isDeleting, setIsDeleting] = useState(false);
   
-  const roles = ["Data Analyst", "ML Engineer"];
+  const roles = ["Data Analyst", "ML Engineer", "AI Engineer"];
 
   useEffect(() => {
     const currentText = roles[roleIndex];
@@ -184,7 +184,7 @@ const Hero = () => {
               
               <div className="flex items-center justify-center space-x-2 text-muted-foreground whitespace-nowrap">
                 <div className="w-2 h-2 bg-success rounded-full animate-pulse"></div>
-                  <span>Open to work as a data analyst and ML Engineer</span>
+                  <span>Open to work as a data analyst, ML Engineer and AI Engineer</span>
                 </div>
               
               <div className="flex items-center justify-center space-x-2 text-muted-foreground">

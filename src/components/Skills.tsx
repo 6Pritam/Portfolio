@@ -57,9 +57,9 @@ const Skills = () => {
       icon: Users,
       color: "text-orange-500",
       skills: [
-        { name: "Team Leadership", level: 78 },
+        { name: "Team Leadership", level: 80 },
         { name: "Teamwork", level: 90 },
-        { name: "Management Skills", level: 75 }
+        { name: "Management Skills", level: 85 }
       ]
     }
   ];

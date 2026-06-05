@@ -15,6 +15,14 @@ const Certifications = () => {
       type: "Academic"
     },
     {
+      title: "Complete Guide To NumPy, Pandas, SciPy, Matplotlib & Seaborn",
+      issuer: "Udemy",
+      date: "Feb,2026",
+      description: "NumPy, Pandas, SciPy, Matplotlib & Seaborn",
+      link: "https://www.udemy.com/certificate/UC-f9f27ce2-81b0-4cd8-a82a-90a1c6a55837/",
+      type: "Programming"
+    },
+    {
       title: "SQL Gold Level (5⭐ Badge)",
       issuer: "HackerRank",
       date: "Aug 11, 2024",

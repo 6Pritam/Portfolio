@@ -1,6 +1,6 @@
 import { Badge } from "@/components/ui/badge";
 import { Progress } from "@/components/ui/progress";
-import { BarChart3, Brain, Code, Users, Globe } from "lucide-react";
+import { BarChart3, Brain, Code, Users, Globe, Cpu, Sparkles, Wrench, Terminal, Library } from "lucide-react";
 
 const Skills = () => {
   const skillCategories = [
@@ -43,71 +43,71 @@ const Skills = () => {
         { name: "TensorFlow", level: 85 }
       ]
     },
-    // {
-    //   title: "Machine Learning & AI",
-    //   icon: Cpu,
-    //   color: "text-red-500",
-    //   skills: [
-    //     { name: "Supervised Learning", level: 88 },
-    //     { name: "Unsupervised Learning", level: 85 },
-    //     { name: "Predictive Modeling", level: 87 },
-    //     { name: "Feature Engineering", level: 90 },
-    //     { name: "Hyperparameter Tuning", level: 84 },
-    //     { name: "Model Evaluation", level: 86 },
-    //     { name: "CNN", level: 80 },
-    //     { name: "RNN", level: 78 },
-    //     { name: "Random Forest", level: 85 },
-    //     { name: "XGBoost", level: 83 },
-    //     { name: "Decision Trees", level: 86 },
-    //     { name: "K Means Clustering", level: 82 }
-    //   ]
-    // },
-    // {
-    //   title: "Generative AI & Agentic AI",
-    //   icon: Sparkles,
-    //   color: "text-pink-500",
-    //   skills: [
-    //     { name: "LLMs", level: 85 },
-    //     { name: "Prompt Engineering", level: 88 },
-    //     { name: "RAG", level: 82 },
-    //     { name: "Vector Databases", level: 80 },
-    //     { name: "AI Agents", level: 83 },
-    //     { name: "Agentic AI", level: 85 },
-    //     { name: "Multi-Agent Systems", level: 80 },
-    //     { name: "Agent Orchestration", level: 78 }
-    //   ]
-    // },
-    // {
-    //   title: "AI Frameworks & Tools",
-    //   icon: Wrench,
-    //   color: "text-cyan-500",
-    //   skills: [
-    //     { name: "LangChain", level: 85 },
-    //     { name: "Hugging Face", level: 82 },
-    //     { name: "Ollama", level: 80 },
-    //     { name: "ChatGPT", level: 90 },
-    //     { name: "Claude", level: 88 },
-    //     { name: "Gemini", level: 85 },
-    //     { name: "Claude Code", level: 87 },
-    //     { name: "Cursor AI", level: 86 },
-    //     { name: "GitHub Copilot", level: 88 }
-    //   ]
-    // },
-    // {
-    //   title: "MCP & Automation",
-    //   icon: Terminal,
-    //   color: "text-slate-500",
-    //   skills: [
-    //     { name: "MCP (Model Context Protocol)", level: 80 },
-    //     { name: "MCP Servers", level: 78 },
-    //     { name: "Tool Integration", level: 85 },
-    //     { name: "Function Calling", level: 83 },
-    //     { name: "CLI-Based AI Development", level: 87 },
-    //     { name: "Workflow Automation", level: 86 },
-    //     { name: "Agent Automation", level: 84 },
-    //     { name: "Autonomous Task Execution", level: 82 }
-    //   ]
-    // },
+    {
+      title: "Machine Learning & AI",
+      icon: Cpu,
+      color: "text-red-500",
+      skills: [
+        { name: "Supervised Learning", level: 88 },
+        { name: "Unsupervised Learning", level: 85 },
+        { name: "Predictive Modeling", level: 87 },
+        { name: "Feature Engineering", level: 90 },
+        { name: "Hyperparameter Tuning", level: 84 },
+        { name: "Model Evaluation", level: 86 },
+        { name: "CNN", level: 80 },
+        { name: "RNN", level: 78 },
+        { name: "Random Forest", level: 85 },
+        { name: "XGBoost", level: 83 },
+        { name: "Decision Trees", level: 86 },
+        { name: "K Means Clustering", level: 82 }
+      ]
+    },
+    {
+      title: "Generative AI & Agentic AI",
+      icon: Sparkles,
+      color: "text-pink-500",
+      skills: [
+        { name: "LLMs", level: 85 },
+        { name: "Prompt Engineering", level: 88 },
+        { name: "RAG", level: 82 },
+        { name: "Vector Databases", level: 80 },
+        { name: "AI Agents", level: 83 },
+        { name: "Agentic AI", level: 85 },
+        { name: "Multi-Agent Systems", level: 80 },
+        { name: "Agent Orchestration", level: 78 }
+      ]
+    },
+    {
+      title: "AI Frameworks & Tools",
+      icon: Wrench,
+      color: "text-cyan-500",
+      skills: [
+        { name: "LangChain", level: 85 },
+        { name: "Hugging Face", level: 82 },
+        { name: "Ollama", level: 80 },
+        { name: "ChatGPT", level: 90 },
+        { name: "Claude", level: 88 },
+        { name: "Gemini", level: 85 },
+        { name: "Claude Code", level: 87 },
+        { name: "Cursor AI", level: 86 },
+        { name: "GitHub Copilot", level: 88 }
+      ]
+    },
+    {
+      title: "MCP & Automation",
+      icon: Terminal,
+      color: "text-slate-500",
+      skills: [
+        { name: "MCP (Model Context Protocol)", level: 80 },
+        { name: "MCP Servers", level: 78 },
+        { name: "Tool Integration", level: 85 },
+        { name: "Function Calling", level: 83 },
+        { name: "CLI-Based AI Development", level: 87 },
+        { name: "Workflow Automation", level: 86 },
+        { name: "Agent Automation", level: 84 },
+        { name: "Autonomous Task Execution", level: 82 }
+      ]
+    },
     {
       title: "Programming & DB",
       icon: Code,
@@ -117,20 +117,20 @@ const Skills = () => {
         { name: "SQL", level: 85 }
       ]
     },
-    // {
-    //   title: "Libraries & Frameworks",
-    //   icon: Library,
-    //   color: "text-emerald-500",
-    //   skills: [
-    //     { name: "Pandas", level: 90 },
-    //     { name: "NumPy", level: 88 },
-    //     { name: "Scikit-learn", level: 86 },
-    //     { name: "Matplotlib", level: 85 },
-    //     { name: "Seaborn", level: 84 },
-    //     { name: "Flask", level: 82 },
-    //     { name: "FastAPI", level: 80 }
-    //   ]
-    // },
+    {
+      title: "Libraries & Frameworks",
+      icon: Library,
+      color: "text-emerald-500",
+      skills: [
+        { name: "Pandas", level: 90 },
+        { name: "NumPy", level: 88 },
+        { name: "Scikit-learn", level: 86 },
+        { name: "Matplotlib", level: 85 },
+        { name: "Seaborn", level: 84 },
+        { name: "Flask", level: 82 },
+        { name: "FastAPI", level: 80 }
+      ]
+    },
     {
       title: "Professional",
       icon: Users,

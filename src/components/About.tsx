@@ -9,9 +9,7 @@ const About = () => {
         
         <div className="glass-card p-8 md:p-12 text-center">
           <p className="text-lg md:text-xl leading-relaxed text-muted-foreground">
-            I'm a Computer Science undergraduate who enjoys building data-driven solutions that solve real problems. 
-            My focus is exploratory analysis, clear dashboards, and production-minded ML where it adds value. 
-            I keep learning new tools to improve how I clean, model, and communicate data.
+            Computer Science graduate with hands-on experience in Data Analytics, Machine Learning, and Artificial Intelligence through internships and real-world projects. Proficient in Python, SQL, Power BI, NLP, and Predictive Modeling with expertise in Data Analysis, Business Intelligence, Model Development, and AI-driven solutions. Experienced in building scalable ML systems, interactive dashboards, and data pipelines to generate actionable insights. Seeking opportunities as a Data Analyst, Machine Learning Engineer, or AI Engineer to contribute to data-driven innovation.
           </p>
           
           <div className="mt-8 grid grid-cols-1 md:grid-cols-3 gap-6">

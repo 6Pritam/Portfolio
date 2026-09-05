@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button";
 import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogTrigger } from "@/components/ui/dialog";
 import { Badge } from "@/components/ui/badge";
 import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "@/components/ui/carousel";
-import { Github, ExternalLink, Shield, BarChart3, Zap, Play } from "lucide-react";
+import { Github, ExternalLink, Shield, BarChart3, Zap, Play, Briefcase } from "lucide-react";
 import jobmatchAiCard from "@/assets/jobmatch-ai-card.jpg";
 import weaponDetectionCard from "@/assets/weapon-detection-card.jpg";
 import pizzaDashboardCard from "@/assets/pizza-dashboard-card.jpg";

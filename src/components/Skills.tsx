@@ -1,4 +1,3 @@
-```tsx
 import { Badge } from "@/components/ui/badge";
 import { Progress } from "@/components/ui/progress";
 import {
@@ -37,8 +36,6 @@ const Skills = () => {
         { name: "Data Modelling", level: 83 },
         { name: "Data Processing", level: 86 },
         { name: "Data Collection", level: 85 },
-
-        // Added from resume
         { name: "Data Transformation", level: 84 },
         { name: "Data Validation", level: 84 },
       ],
@@ -60,8 +57,6 @@ const Skills = () => {
         { name: "OCR", level: 82 },
         { name: "LSTM", level: 78 },
         { name: "TensorFlow", level: 85 },
-
-        // Added from resume
         { name: "Regression", level: 82 },
         { name: "Classification", level: 84 },
         { name: "Sentence Transformers", level: 82 },
@@ -104,8 +99,6 @@ const Skills = () => {
         { name: "Agentic AI", level: 85 },
         { name: "Multi-Agent Systems", level: 80 },
         { name: "Agent Orchestration", level: 78 },
-
-        // Added / reinforced from resume
         { name: "Contextual Matching", level: 80 },
       ],
     },

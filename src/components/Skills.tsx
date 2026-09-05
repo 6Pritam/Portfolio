@@ -1,6 +1,20 @@
+```tsx
 import { Badge } from "@/components/ui/badge";
 import { Progress } from "@/components/ui/progress";
-import { BarChart3, Brain, Code, Users, Globe, Cpu, Sparkles, Wrench, Terminal, Library } from "lucide-react";
+import {
+  BarChart3,
+  Brain,
+  Code,
+  Users,
+  Globe,
+  Cpu,
+  Sparkles,
+  Wrench,
+  Terminal,
+  Library,
+  Database,
+  Workflow,
+} from "lucide-react";
 
 const Skills = () => {
   const skillCategories = [
@@ -22,9 +36,14 @@ const Skills = () => {
         { name: "Data Cleaning", level: 88 },
         { name: "Data Modelling", level: 83 },
         { name: "Data Processing", level: 86 },
-        { name: "Data Collection", level: 85 }
-      ]
+        { name: "Data Collection", level: 85 },
+
+        // Added from resume
+        { name: "Data Transformation", level: 84 },
+        { name: "Data Validation", level: 84 },
+      ],
     },
+
     {
       title: "ML & NLP",
       icon: Brain,
@@ -40,9 +59,18 @@ const Skills = () => {
         { name: "YOLO", level: 80 },
         { name: "OCR", level: 82 },
         { name: "LSTM", level: 78 },
-        { name: "TensorFlow", level: 85 }
-      ]
+        { name: "TensorFlow", level: 85 },
+
+        // Added from resume
+        { name: "Regression", level: 82 },
+        { name: "Classification", level: 84 },
+        { name: "Sentence Transformers", level: 82 },
+        { name: "Semantic Similarity", level: 80 },
+        { name: "Cosine Similarity", level: 80 },
+        { name: "Named Entity Recognition (NER)", level: 78 },
+      ],
     },
+
     {
       title: "Machine Learning & AI",
       icon: Cpu,
@@ -59,9 +87,10 @@ const Skills = () => {
         { name: "Random Forest", level: 85 },
         { name: "XGBoost", level: 83 },
         { name: "Decision Trees", level: 86 },
-        { name: "K Means Clustering", level: 82 }
-      ]
+        { name: "K Means Clustering", level: 82 },
+      ],
     },
+
     {
       title: "Generative AI & Agentic AI",
       icon: Sparkles,
@@ -74,9 +103,13 @@ const Skills = () => {
         { name: "AI Agents", level: 83 },
         { name: "Agentic AI", level: 85 },
         { name: "Multi-Agent Systems", level: 80 },
-        { name: "Agent Orchestration", level: 78 }
-      ]
+        { name: "Agent Orchestration", level: 78 },
+
+        // Added / reinforced from resume
+        { name: "Contextual Matching", level: 80 },
+      ],
     },
+
     {
       title: "AI Frameworks & Tools",
       icon: Wrench,
@@ -90,9 +123,13 @@ const Skills = () => {
         { name: "Gemini", level: 85 },
         { name: "Claude Code", level: 87 },
         { name: "Cursor AI", level: 86 },
-        { name: "GitHub Copilot", level: 88 }
-      ]
+        { name: "Docker", level: 75 },
+        { name: "Git", level: 82 },
+        { name: "GitHub", level: 85 },
+        { name: "GitHub Copilot", level: 88 },
+      ],
     },
+
     {
       title: "MCP & Automation",
       icon: Terminal,
@@ -105,18 +142,23 @@ const Skills = () => {
         { name: "CLI-Based AI Development", level: 87 },
         { name: "Workflow Automation", level: 86 },
         { name: "Agent Automation", level: 84 },
-        { name: "Autonomous Task Execution", level: 82 }
-      ]
+        { name: "Autonomous Task Execution", level: 82 },
+      ],
     },
+
     {
       title: "Programming & DB",
       icon: Code,
       color: "text-green-500",
       skills: [
         { name: "Python", level: 92 },
-        { name: "SQL", level: 85 }
-      ]
+        { name: "SQL", level: 85 },
+
+        // Added from resume
+        { name: "JavaScript", level: 78 },
+      ],
     },
+
     {
       title: "Libraries & Frameworks",
       icon: Library,
@@ -128,9 +170,38 @@ const Skills = () => {
         { name: "Matplotlib", level: 85 },
         { name: "Seaborn", level: 84 },
         { name: "Flask", level: 82 },
-        { name: "FastAPI", level: 80 }
-      ]
+        { name: "FastAPI", level: 80 },
+      ],
     },
+
+    {
+      title: "Data Engineering",
+      icon: Workflow,
+      color: "text-teal-500",
+      skills: [
+        { name: "ETL", level: 82 },
+        { name: "Data Pipelines", level: 80 },
+        { name: "Data Preprocessing", level: 88 },
+        { name: "Data Transformation", level: 84 },
+        { name: "Data Validation", level: 84 },
+        { name: "PySpark", level: 78 },
+        { name: "Apache Spark", level: 76 },
+      ],
+    },
+
+    {
+      title: "Databases",
+      icon: Database,
+      color: "text-indigo-500",
+      skills: [
+        { name: "PostgreSQL", level: 84 },
+        { name: "SQLAlchemy", level: 78 },
+        { name: "MySQL", level: 80 },
+        { name: "Firebase", level: 75 },
+        { name: "Vector Databases", level: 80 },
+      ],
+    },
+
     {
       title: "Professional",
       icon: Users,
@@ -138,23 +209,26 @@ const Skills = () => {
       skills: [
         { name: "Team Leadership", level: 80 },
         { name: "Teamwork", level: 90 },
-        { name: "Management Skills", level: 85 }
-      ]
-    }
+        { name: "Management Skills", level: 85 },
+      ],
+    },
   ];
 
   const languages = [
     { name: "Bengali", level: "Proficient" },
     { name: "Odia", level: "Proficient" },
     { name: "Hindi", level: "Proficient" },
-    { name: "English", level: "Advanced" }
+    { name: "English", level: "Advanced" },
   ];
 
   return (
     <section id="skills" className="py-20">
       <div className="max-w-6xl mx-auto px-6">
         <div className="text-center mb-12">
-          <h2 className="text-3xl md:text-4xl font-sora font-bold mb-4">Skills & Technologies</h2>
+          <h2 className="text-3xl md:text-4xl font-sora font-bold mb-4">
+            Skills & Technologies
+          </h2>
+
           <div className="w-20 h-1 bg-gradient-primary mx-auto rounded-full"></div>
         </div>
 
@@ -163,17 +237,28 @@ const Skills = () => {
           {skillCategories.map((category, index) => (
             <div key={index} className="glass-card p-6">
               <div className="flex items-center gap-3 mb-6">
-                <category.icon className={`h-6 w-6 ${category.color}`} />
-                <h3 className="text-xl font-sora font-semibold">{category.title}</h3>
+                <category.icon
+                  className={`h-6 w-6 ${category.color}`}
+                />
+
+                <h3 className="text-xl font-sora font-semibold">
+                  {category.title}
+                </h3>
               </div>
-              
+
               <div className="space-y-4">
                 {category.skills.map((skill, i) => (
                   <div key={i}>
                     <div className="flex justify-between items-center mb-2">
-                      <span className="text-sm font-medium text-foreground">{skill.name}</span>
-                      <span className="text-xs text-muted-foreground">{skill.level}%</span>
+                      <span className="text-sm font-medium text-foreground">
+                        {skill.name}
+                      </span>
+
+                      <span className="text-xs text-muted-foreground">
+                        {skill.level}%
+                      </span>
                     </div>
+
                     <Progress value={skill.level} className="h-2" />
                   </div>
                 ))}
@@ -186,13 +271,19 @@ const Skills = () => {
         <div className="glass-card p-6">
           <div className="flex items-center gap-3 mb-6">
             <Globe className="h-6 w-6 text-indigo-500" />
-            <h3 className="text-xl font-sora font-semibold">Languages</h3>
+
+            <h3 className="text-xl font-sora font-semibold">
+              Languages
+            </h3>
           </div>
-          
+
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
             {languages.map((language, index) => (
               <div key={index} className="text-center">
-                <div className="text-lg font-medium text-foreground mb-1">{language.name}</div>
+                <div className="text-lg font-medium text-foreground mb-1">
+                  {language.name}
+                </div>
+
                 <Badge variant="secondary" className="text-xs">
                   {language.level}
                 </Badge>
@@ -206,3 +297,4 @@ const Skills = () => {
 };
 
 export default Skills;
+

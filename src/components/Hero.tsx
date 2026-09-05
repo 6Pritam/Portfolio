@@ -11,7 +11,7 @@ const Hero = () => {
   const [charIndex, setCharIndex] = useState(0);
   const [isDeleting, setIsDeleting] = useState(false);
   
-  const roles = ["Data Analyst", "ML Engineer", "AI Engineer"];
+  const roles = ["Data Analyst", "Data Engineer", "ML Engineer", "AI Engineer"];
 
   useEffect(() => {
     const currentText = roles[roleIndex];
@@ -100,7 +100,7 @@ const Hero = () => {
             <div className="relative">
               <img 
                 src="/lovable-uploads/3e3d8243-8a15-4cbf-895c-8b624998408d.png"
-                alt="Pritam Kumar Ghosh - Data Analyst and ML Engineer"
+                alt="Pritam Kumar Ghosh"
                 className="w-48 h-48 md:w-56 md:h-56 lg:w-64 lg:h-64 rounded-full object-cover border-4 border-primary/30 shadow-hero hover:border-primary/50 transition-all duration-500"
               />
               <div className="absolute inset-0 rounded-full bg-gradient-to-br from-primary/10 to-secondary-accent/10 hover:from-primary/20 hover:to-secondary-accent/20 transition-all duration-500"></div>
@@ -184,7 +184,7 @@ const Hero = () => {
               
               <div className="flex items-center justify-center space-x-2 text-muted-foreground whitespace-nowrap">
                 <div className="w-2 h-2 bg-success rounded-full animate-pulse"></div>
-                  <span>Open to work as a data analyst, ML Engineer and AI Engineer</span>
+                  <span>Open to work as a Data Analyst, Data Engineer, ML Engineer and AI Engineer</span>
                 </div>
               
               <div className="flex items-center justify-center space-x-2 text-muted-foreground">

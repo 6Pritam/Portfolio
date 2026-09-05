@@ -17,6 +17,59 @@ const Projects = () => {
 
   const projects = [
     {
+  title: "JobMatch AI",
+  subtitle: "AI-Powered Job Matching Platform",
+  description: "Full-stack recruitment platform connecting students with job opportunities through profile-based matching, multi-tenant recruiter workspaces, and intelligent candidate insights.",
+  icon: Briefcase,
+  tools: ["React", "TypeScript", "FastAPI", "PostgreSQL", "SQLAlchemy", "JWT"],
+  color: "bg-indigo-600",
+  type: "ml",
+  cardImage: jobmatchAiCard,
+  details: {
+    problem: "Students and job seekers struggle to find relevant opportunities, while recruiters need efficient ways to identify suitable candidates from large applicant pools. Existing platforms often lack transparency in matching and tenant-isolated recruiter workspaces.",
+    overview: "JobMatch AI is a full-stack AI-powered recruitment and job-matching platform that connects students with relevant opportunities while giving recruiters intelligent candidate insights. It features a multi-tenant recruiter architecture, JWT authentication, role-based access, and a future-ready matching infrastructure.",
+    features: [
+      "🔐 Secure JWT authentication with separate student and recruiter registration",
+      "🏢 Multi-tenant recruiter workspaces with tenant isolation",
+      "👨‍🎓 Student profile management with education, skills, experience, and projects",
+      "📝 Recruiter job creation with detailed requirements and public publishing",
+      "🧠 Future-ready AI recommendation architecture for profile-job matching",
+      "📊 Explainable match scoring with skills, experience, education, and preferences",
+      "📸 Application-time match snapshot to preserve historical recruitment context",
+      "📱 Responsive React + Vite frontend with modern component-based UI"
+    ],
+    approach: [
+      "Built React + Vite frontend with TypeScript for a responsive, component-based UI",
+      "Developed FastAPI backend with SQLAlchemy ORM and Pydantic schemas",
+      "Implemented PostgreSQL database with Alembic migrations",
+      "Added JWT authentication with Argon2 password hashing and role-based access control",
+      "Designed multi-tenant recruiter architecture with tenant-scoped resources",
+      "Created public student marketplace for published jobs across all tenants",
+      "Planned hybrid recommendation engine combining semantic and deterministic matching"
+    ],
+    results: [
+      "Complete full-stack platform with student and recruiter roles",
+      "Secure authentication and authorization with JWT tokens",
+      "Multi-tenant workspace isolation for recruiter data",
+      "Public job marketplace visible to students across tenants",
+      "Structured profile and job models ready for AI matching",
+      "Scalable architecture for future ML recommendation engine"
+    ],
+    outcomes: "A production-ready recruitment platform foundation that bridges students and recruiters through secure, scalable, and future AI-ready infrastructure.",
+    improvements: [
+      "Implement semantic similarity matching using embeddings and pgvector",
+      "Add resume parsing and skill extraction",
+      "Build personalized job recommendation feed for students",
+      "Create recruiter analytics dashboard for applicant insights",
+      "Add notification system for job alerts and application updates",
+      "Deploy to production with CI/CD pipeline"
+    ],
+    github: "https://github.com/6Pritam/JobmatchAi",
+    demo: "https://drive.google.com/file/d/1Y-Xu7HoGyjzBow5JEATJuONA5phpR1hh/view?usp=sharing",
+    demoLabel: "Screen Recording"
+  }
+},
+    {
       title: "Weapon Detection System",
       subtitle: "Real-Time Weapon Detection & Alerts",
       description: "AI-powered security system using YOLO for real-time weapon detection with instant SMS alerts to authorities.",
